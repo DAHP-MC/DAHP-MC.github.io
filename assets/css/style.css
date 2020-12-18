@@ -30,7 +30,7 @@ body {
 .staff-background {
     overflow: hidden;
     position:static;
-  background-image: url(../images/banner.png);
+  background-image: url(../images/bannerbackground.png);
 }
 .rectangle {
     margin-top: -11px;
