@@ -29,8 +29,8 @@ body {
 
 .staff-background {
     overflow: hidden;
-    position: relative;
-    background: linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
+    position:static;
+  background-image: url(../images/banner.png);
 }
 .rectangle {
     margin-top: -11px;
@@ -1892,4 +1892,24 @@ a {
   color: aliceblue;
   text-align: center;
   font-family:monospace;
+}
+    
+    #banner-background {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 325px; width: 100%;
+  margin-top: -8vw;
+  margin-left: -40.8vw;
+}
+
+@media (min-width: 92vw) {
+    #banner-background { height: 10vw; }
+    #banner-background { width: 150vw; }
+}
+    
+                            .roletext { 
+  font-size: 1vw;
+  color: aliceblue;
+  font-family:serif
 }
