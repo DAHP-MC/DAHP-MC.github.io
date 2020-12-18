@@ -30,7 +30,7 @@ body {
 .staff-background {
     overflow: hidden;
     position:static;
-  background-image: url(../images/bannerbackground.png);
+  background-image: url(../images/banner.png);
 }
 .rectangle {
     margin-top: -11px;
@@ -622,7 +622,7 @@ ul {
 }
 .site-footer .social-icons
 {
-  text-align:right
+  text-align:center;
 }
 .site-footer .social-icons a
 {
@@ -793,10 +793,12 @@ ul {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: white;
+  margin-left: 10.4vw;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
   margin: 0;
+    
 }
 #fh5co-footer .fh5co-footer-links li {
   padding: 0;
@@ -812,6 +814,8 @@ ul {
 }
 #fh5co-footer .fh5co-widget {
   margin-bottom: 10px;
+  margin-left: 31vw;
+  color: white;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-widget {
@@ -835,10 +839,11 @@ ul {
   background: #F85A16;
   color: #fff;
   border: 2px solid #F85A16;
+    margin-left: 7vw;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f96c2f !important;
-  border-color: #f96c2f !important;
+  background: #f99c2f !important;
+  border-color: #f99c2f !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -846,7 +851,7 @@ ul {
   border: 1px solid #F85A16;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F85A16;
+  background: #f99c2f;
   color: #fff;
 }
 
