@@ -793,7 +793,7 @@ ul {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: white;
-  margin-left: 10.4vw;
+  margin-left: 12vw;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -814,7 +814,7 @@ ul {
 }
 #fh5co-footer .fh5co-widget {
   margin-bottom: 10px;
-  margin-left: 26vw;
+  margin-left: 31.4vw;
   color: white;
 }
 @media screen and (max-width: 768px) {
@@ -836,22 +836,22 @@ ul {
 
 
 .btn-primary {
-  background: #F85A16;
+  background: #8b2b8f;
   color: #fff;
-  border: 2px solid #F85A16;
-    margin-left: 7vw;
+  border: 2px solid #8b2b8f;
+    margin-left: 8vw;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f99c2f !important;
-  border-color: #f99c2f !important;
+  background: #8b2b8f !important;
+  border-color: #8b2b8f !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F85A16;
+  color: #8b2b8f;
   border: 1px solid #F85A16;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #f99c2f;
+  background: #8b2b8f;
   color: #fff;
 }
 
@@ -1586,7 +1586,7 @@ svg {
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-widget {
-    text-align: left;
+    text-align: center;
   }
 }
 #fh5co-footer .fh5co-widget h3 {
